@@ -35,6 +35,7 @@ I like software that people actually install and use: desktop apps, dashboards a
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -42,6 +43,8 @@ I like software that people actually install and use: desktop apps, dashboards a
 **Libraries, frameworks and tooling**
 
 ![Qt](https://img.shields.io/badge/PySide6%20%2F%20Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+![.NET Framework](https://img.shields.io/badge/.NET%20WinForms-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
 ![three.js](https://img.shields.io/badge/three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
 ![OpenPyXL](https://img.shields.io/badge/OpenPyXL-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
@@ -70,6 +73,16 @@ I like software that people actually install and use: desktop apps, dashboards a
 
 Three public projects, each with its own repository, README and documented setup.
 
+### 🆕 Latest updates
+
+| Date | Project | What changed |
+| --- | --- | --- |
+| Nov 26, 2026 | **CacaoX** | Renamed from ChocoIntel. Every Excel import is now archived in a local SQLite history, with a new Database tab and a redesigned dashboard |
+| Nov 26, 2026 | **CSharpProjects** | All my C# work reorganised into one showcase repo with a README per project |
+| Nov 23, 2026 | **Synvox 1.2.0** | iOS-style redesign with larger type and glass buttons; the installer is now published from CI |
+| Nov 19, 2026 | **RainingMD** | New logo and icon, PDF export and a one-click installer |
+
+
 <table>
   <tr>
     <td width="33%" valign="top">
@@ -79,7 +92,8 @@ Three public projects, each with its own repository, README and documented setup
       • OCR for scans and image-only PDFs (Tesseract or a bundled offline engine)<br>
       • Validates the 44-digit access key with its mod-11 check digit and repairs a single misread digit<br>
       • Editable review table flags empty required cells and appends to an existing XLSX<br>
-      • Windows installer built with Inno Setup, tested with pytest<br><br>
+      • New in 1.2.0: iOS-style interface with larger type and glass buttons<br>
+      • Windows installer published from CI, tested with pytest<br><br>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/Qt-41CD52?style=flat-square&logo=qt&logoColor=white"> <img src="https://img.shields.io/badge/OCR-5B78FF?style=flat-square"> <img src="https://img.shields.io/badge/PyInstaller-2C2D72?style=flat-square"> <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white">
     </td>
     <td width="33%" valign="top">
@@ -88,20 +102,31 @@ Three public projects, each with its own repository, README and documented setup
       A quiet writing app modelled on GNOME Apostrophe, with its own two-colour palette. The window chrome and the installer are drawn in the same style as the editor.<br><br>
       • Editor, split and page preview, plus focus mode and a distraction-free window<br>
       • Full keyboard shortcuts for formatting, find, text size and light or dark<br>
-      • One branded setup that installs per user without an admin prompt, with a matching uninstaller<br><br>
+      • Export to PDF<br>
+      • One-click branded setup that installs per user without an admin prompt<br><br>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/PySide6-41CD52?style=flat-square&logo=qt&logoColor=white"> <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white"> <img src="https://img.shields.io/badge/Windows%20installer-0078D4?style=flat-square&logo=windows&logoColor=white">
     </td>
     <td width="33%" valign="top">
-      <h3>🍫 <a href="https://github.com/lipezwx/ChocoIntel">ChocoIntel</a></h3>
-      <b>Inventory intelligence dashboard for supply planning</b><br><br>
-      A single-file dashboard covering stock health, availability, demand and slow movers, with an automated daily transfer plan. Runs on fictional sample data, so the repository is safe to share.<br><br>
-      • Transfer plan from three-day demand to safety stock to strategic fill, with FEFO batch picking and pallet and trip capacity<br>
-      • One Python script reads two Excel workbooks and rebuilds every KPI, table and chart<br>
-      • Six views with searchable, sortable tables, opened straight in the browser<br><br>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white"> <img src="https://img.shields.io/badge/three.js-000000?style=flat-square&logo=threedotjs&logoColor=white">
+      <h3>🍫 <a href="https://github.com/lipezwx/CacaoX">CacaoX</a></h3>
+      <b>Inventory intelligence for food and ingredient operations</b><br><br>
+      Turns the daily ERP stock export into a dashboard and a transfer plan in one command. Runs on fictional sample data, so the repository is safe to share.<br><br>
+      • Transfer plan from three-day demand to safety stock to strategic fill, with FEFO batch picking and trip capacity<br>
+      • Every import archived in a local SQLite history, with daily KPI and per-material snapshots<br>
+      • Seven views, including a Database tab with a read-only SQL query box<br><br>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white"> <img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white">
     </td>
   </tr>
 </table>
+
+### 💠 C# projects
+
+[**CSharpProjects**](https://github.com/lipezwx/CSharpProjects) gathers the Windows Forms apps I built in the SENAI Systems Development course, where the software had to talk to real hardware.
+
+| Area | Projects |
+| --- | --- |
+| 🔌 IoT and industrial control | [PLC Modbus Panel](https://github.com/lipezwx/CSharpProjects/tree/main/iot/plc-modbus-panel) · [PIC Serial LED Control](https://github.com/lipezwx/CSharpProjects/tree/main/iot/pic-serial-led-control) · [Arduino Serial + Login](https://github.com/lipezwx/CSharpProjects/tree/main/iot/arduino-serial-login) · [Microcontroller User Admin](https://github.com/lipezwx/CSharpProjects/tree/main/iot/microcontroller-user-admin) |
+| 🌐 Networking | [MQTT Chat](https://github.com/lipezwx/CSharpProjects/tree/main/networking/mqtt-chat) · [Product Register Client](https://github.com/lipezwx/CSharpProjects/tree/main/networking/product-register-client) |
+| ⏱️ Desktop | [Pomodoro Timer](https://github.com/lipezwx/CSharpProjects/tree/main/desktop/pomodoro-timer) |
 
 ---
 
@@ -144,7 +169,7 @@ Three workplaces, one direction. Each apprenticeship moved me closer to where pr
 
 | 🏭 Industry | 📊 Data | 💻 Build | 🤝 Work together |
 | --- | --- | --- | --- |
-| Technical drawing | Power BI and DAX | Python (intermediate) | Leadership |
+| Technical drawing | Power BI and DAX | Python (intermediate), C# | Leadership |
 | Electromechanics | Power Query | PySide6 desktop apps | Collaboration and communication |
 | Industrial management | Excel and SAP | OCR and document extraction | Problem solving |
 | Stock management | KPI design | Windows installers | Project management |
@@ -170,7 +195,7 @@ Three workplaces, one direction. Each apprenticeship moved me closer to where pr
 
 Sou o **Luiz Felipe**, tenho 19 anos e moro em Itapeva, MG. Comecei como Jovem Aprendiz em desenho técnico mecânico (Hutchinson) e eletromecânica (Bauducco). Hoje sou aprendiz de **Assistente de PCP na Barry Callebaut**, onde uso **SAP, Microsoft 365, Python e Power BI** para organizar o fluxo de materiais, gerir estoque e criar ferramentas de apoio à decisão.
 
-Cursando **Ciências Econômicas na USF (2026–2030)** e técnico em Desenvolvimento de Sistemas pelo SENAI. Desenvolvo projetos pessoais em Python (Synvox, RainingMD e ChocoIntel) e estudo IA Generativa, nuvem e backend com Python.
+Cursando **Ciências Econômicas na USF (2026–2030)** e técnico em Desenvolvimento de Sistemas pelo SENAI. Desenvolvo projetos pessoais em Python (Synvox, RainingMD e CacaoX), além de apps em C# para IoT e automação industrial e estudo IA Generativa, nuvem e backend com Python.
 
 </details>
 
