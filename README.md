@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg?v=cacaox" alt="Luiz Felipe S. Fernando — Python, data and automation developer" width="100%">
+<img src="https://raw.githubusercontent.com/lipezwx/lipezwx/main/assets/banner.svg?v=cacaox" alt="Luiz Felipe S. Fernando — Python, data and automation developer" width="100%">
 
 <br>
 
